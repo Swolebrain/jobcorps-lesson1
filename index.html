@@ -6,8 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Some Facts of Life</title>
   <style>
-    a {
+    *{
+      font-family: Verdana;
+    }
+    .blocklink {
       display: block;
+      text-align: center;
+      font-size: 1.25rem;
     }
     img {
       display:block;
@@ -30,11 +35,22 @@
     h3{
       text-align: center;
     }
-    ol{
+    div{
       background-color: lightgrey;
       color: white;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+      padding: 2rem;
+    }
+    .quote-img{
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    .bullspit{
+      text-align: center;
+      font-size: 1.1rem;
+      margin-bottom: 4rem;
+    }
+    iframe{
+      margin-bottom: 6rem;
     }
   </style>
 </head>
@@ -42,15 +58,18 @@
   <h3>Stay Humble</h3>
   <h2>Be Kind</h2>
   <h1>Work Hard</h1>
-  <p>These are the keys to happiness. Everything else is bullspit.</p>
+  <p class="bullspit">These are the keys to happiness. Everything else is bullspit.</p>
 
-  <p>Things that everyone should know:</p>
-  <ol>
-    <li>Old people on wheelchairs, with blankets on their legs - these are retired mermaids</li>
-    <li>Pandas can't be racist cuz they white, black, and asian</li>
-    <li>Nobody looks cool trying to find the bed when the lights are off</li>
-    <li>When someone asks for a piece of your food, you spit on it</li>
-  </ol>
+  <div>
+    <p>Things that everyone should know:</p>
+    <ol>
+      <li>Old people on wheelchairs, with blankets on their legs - these are retired mermaids</li>
+      <li>Pandas can't be racist cuz they white, black, and asian</li>
+      <li>Nobody looks cool trying to find the bed when the lights are off</li>
+      <li>When someone asks for a piece of your food, you spit on it</li>
+    </ol>
+  </div>
+
 
   <p>What's a fool?</p>
   <ul>
@@ -65,8 +84,8 @@
 
 
   <!-- google 'shock image' for this link -->
-  <a href="https://s-media-cache-ak0.pinimg.com/originals/0b/f2/54/0bf254107e2d27d9134ffbd39c15db21.jpg">My dog ate my homework</a>
-  <img src="videogame_maker.jpg" alt="">
+  <a class="blocklink" href="https://s-media-cache-ak0.pinimg.com/originals/0b/f2/54/0bf254107e2d27d9134ffbd39c15db21.jpg">My dog ate my homework</a>
+  <img class="quote-img" src="videogame_maker.jpg" alt="">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/rxsdiusm1NQ" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
